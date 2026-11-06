@@ -31,13 +31,13 @@ A responsive weather forecasting application built with **React and Tailwind CSS
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/soumojitjati51-creator/PRODIGY_WD_05
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd YOUR_PROJECT_FOLDER
+cd PRODIGY_WD_05
 ```
 
 ### 3. Install dependencies
