@@ -1,16 +1,74 @@
-# React + Vite
+# 🌤️ SkyCast – Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather forecasting application built with **React and Tailwind CSS**. Get real-time weather information, hourly forecasts, and a 7-day weather outlook for any city or your current location.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 Search weather by city name.
+- 📍 Get weather using your current location.
+- 🌡️ View current temperature and feels-like temperature.
+- 💧 Check humidity and wind speed.
+- 🧭 View wind direction.
+- 🕒 Explore the next 24 hours of weather forecasts.
+- 📅 View a 7-day weather forecast.
+- 🌙 Day/night-aware weather icons.
+- ⚡ Skeleton loading experience.
+- 🛡️ Error handling for invalid cities, network failures, and location permissions.
+- 📱 Responsive design for mobile, tablet, and desktop.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Open-Meteo Geocoding API
+- Open-Meteo Weather Forecast API
+- Browser Geolocation API
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 🌐 API Source
+
+Weather information is provided by [Open-Meteo](https://open-meteo.com/).
+
+- [Geocoding API](https://open-meteo.com/en/docs/geocoding-api)
+- [Weather Forecast API](https://open-meteo.com/en/docs)
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+## 👨‍💻 Developer
+
+**Soumojit Jati**
+
+---
+
+Built with ❤️ using React and Tailwind CSS.
